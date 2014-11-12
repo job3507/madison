@@ -1,0 +1,249 @@
+/*ОСНОВНАЯ ЧАСТЬ САЙТА*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ebe6df;
+}
+
+#main-container {
+    width: 1030px;
+    height: 2622px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    background: #dedad3;
+}
+
+/*ОПИСАНИЕ ШАПКИ САЙТА*/
+#header {
+    width: 1030px;
+    height: 160px;
+}
+
+#logo {
+    width: 230px;
+    height: 82px;
+    margin-top: 45px;
+    margin-left: 15px;
+    background: url(img/logo.png) no-repeat;
+    display: block;
+    float: left;
+}
+
+#social-button {
+    width: 162px;
+    height: 32px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 65px;
+}
+
+#social-button1 {
+    width: 33px;
+    height: 33px;
+    background: url(img/buttom-soc.png);
+    background-position: 0 32px;
+    margin-right: 10px;
+    display: block;
+    float: left;
+}
+
+#social-button1:hover {
+    width: 33px;
+    height: 33px;
+    background: url(img/buttom-soc.png);
+    background-position: 0 0;
+    margin-right: 10px;
+    display: block;
+    float: left;
+}
+
+#social-button2 {
+    width: 33px;
+    height: 33px;
+    background: url(img/buttom-soc.png);
+    background-position: -37px 32px;
+    margin-right: 10px;
+    display: block;
+    float: left;
+}
+
+#social-button2:hover {
+    width: 33px;
+    height: 33px;
+    background: url(img/buttom-soc.png);
+    background-position: -37px 0;
+    margin-right: 10px;
+    display: block;
+    float: left;
+}
+
+#social-button3 {
+    width: 33px;
+    height: 33px;
+    background: url(img/buttom-soc.png);
+    background-position: -74px 32px;
+    margin-right: 10px;
+    display: block;
+    float: left;
+}
+
+#social-button3:hover {
+    width: 33px;
+    height: 33px;
+    background: url(img/buttom-soc.png);
+    background-position: -74px 0;
+    margin-right: 10px;
+    display: block;
+    float: left;
+}
+
+#social-button4 {
+    width: 33px;
+    height: 33px;
+    background-image: url(img/buttom-soc.png);
+    background-position: -111px 32px;
+    display: block;
+    float: left;
+}
+
+#social-button4:hover {
+    width: 33px;
+    height: 33px;
+    background-image: url(img/buttom-soc.png);
+    background-position: -111px 0;
+    display: block;
+    float: left;
+}
+
+/*ОПИСАНИЕ МЕНЮ САЙТА*/
+#topmenu {
+    width: 1068px;
+    height: 65px;
+    position: absolute;
+}
+
+#left-corner {
+    width: 19px;
+    height: 65px;
+    background: url(img/left-corner.png) no-repeat;
+    float: left;
+    position: absolute;
+    left: -19px;
+}
+
+#menu-bar {
+    width: 1000px;
+    height: 45px;
+    background: #e09402;
+    padding-left: 30px;
+    padding-top: 20px;
+    float: left;
+}
+
+#right-corner {
+    width: 19px;
+    height: 65px;
+    background: url(img/right-corner.png) no-repeat;
+    float: left;
+    position: absolute;
+    left: 1029px;
+}
+
+#menu-list li {
+    width: 30px;
+    height: 65px;
+    display: inline;
+    margin-right: 20px;
+}
+
+#menu-list a {
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    padding: 20px 5px;
+    text-decoration: none;
+}
+
+#menu-list a:hover {
+    height: 65px;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    background: #62493d;
+    text-decoration: none;
+}
+
+/*СЛАЙДЕР*/
+#slaider-container {
+    width: 1030px;
+    height: 420px;
+    margin-top: 100px;
+    border: 1px solid #000;
+}
+
+/*КОНТЕНТ САЙТА*/
+#content-title {
+    margin: 60px auto;
+    padding: 0 150px;
+    font-family: Arial;
+    font-size: 36px;
+    color: #6b3b25;
+}
+
+#content-line {
+    width: 1030px;
+    height: 4px;
+    background: #6b3b25;
+    margin-bottom: 17px;
+}
+
+#content-menu{
+    width: 1030px;
+    height: 15px;
+    margin-bottom: 15px;
+}
+
+#category-name {
+    width: 500px;
+    height: 15px;
+    font-weight: bold;
+    margin-left: 15px;
+    font-size: 15px;
+    color: #6b3b25;
+    float: left;
+}
+
+#viewall {
+    width: 500px;
+    height: 15px;
+    margin-right: 15px;
+    font-size: 15px;
+    color: #6b3b25;
+    float: left;
+    text-align: right;
+    display: block;
+    text-decoration: none;
+}
+
+#content-box {
+    width: 1030px;
+    height: 1000px;
+}
+
+#article-box {
+    width: 300px;
+    height: 590px;
+    border: 1px solid #000;
+    margin: 0 20px 0 15px;
+}
+
+#article-box img {
+    width: 300px;
+    height: 380px;
+    margin-bottom: 30px;
+}
