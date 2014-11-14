@@ -8,6 +8,18 @@ body {
     background: #ebe6df;
 }
 
+a {
+    color: #6b3b25;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6b3b25;
+    font-size: 15px;
+    text-decoration: none;
+}
+
 #main-container {
     width: 1030px;
     height: 2622px;
@@ -32,6 +44,7 @@ body {
     float: left;
 }
 
+/*ОПИСАНИЕ СОЦИАЛЬНЫХ КНОПОК*/
 #social-button {
     width: 162px;
     height: 32px;
@@ -291,6 +304,7 @@ body {
     color: #fff;
 }
 
+/*ОПИСАНИЕ ДРУГИХ СТАТЕЙ*/
 #recent-post-box {
     width: 300px;
     height: 500px;
@@ -299,8 +313,9 @@ body {
     margin-right: 20px;
 }
 
+/*ОПИСАНИЕ ВИДЕО*/
 #featured-video-box {
-    width: 710px;
+    width: 705px;
     height: 500px;
     border: 1px solid #000;
     float: left;
