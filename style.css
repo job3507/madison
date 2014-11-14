@@ -250,8 +250,7 @@ body {
 #article-box {
     width: 305px;
     height: 590px;
-    border: 1px solid #000;
-    margin: 0 21px 0 15px;
+    margin: 0 21px 70px 15px;
     float: left;
 }
 
@@ -287,6 +286,22 @@ body {
 
 #article-box input {
     background: #e09402;
-    padding: 4px;
+    padding: 12px 14px;
+    border: 0;
     color: #fff;
+}
+
+#recent-post-box {
+    width: 300px;
+    height: 500px;
+    float: left;
+    border: 1px solid #000;
+    margin-right: 20px;
+}
+
+#featured-video-box {
+    width: 710px;
+    height: 500px;
+    border: 1px solid #000;
+    float: left;
 }
