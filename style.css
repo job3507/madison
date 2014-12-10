@@ -313,6 +313,24 @@ a:hover {
     margin-right: 20px;
 }
 
+#recent-post {
+    display: block;
+    float: left;
+}
+
+#view-recentpost {
+    display: block;
+    float: left;
+    margin-left: 50px;
+}
+
+#recent-post-line {
+    left: 0;
+    right: 0;
+    height: 3px;
+    color: #3b6b25;
+}
+
 /*ОПИСАНИЕ ВИДЕО*/
 #featured-video-box {
     width: 705px;
