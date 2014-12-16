@@ -6,6 +6,7 @@
 
 body {
     background: #ebe6df;
+    background: url(images/Wood.png);
 }
 
 a {
@@ -174,17 +175,17 @@ a:hover {
 
 #menu-list a {
     font-family: Arial;
-    font-size: 24px;
+    font-size: 23px;
     font-weight: bold;
     color: #fff;
-    padding: 20px 5px;
+    padding: 20px 5px 19px 5px;
     text-decoration: none;
 }
 
 #menu-list a:hover {
     height: 65px;
     font-family: Arial;
-    font-size: 24px;
+    font-size: 23px;
     font-weight: bold;
     color: #fff;
     background: #62493d;
@@ -283,7 +284,7 @@ a:hover {
 }
 
 #article-box a:hover {
-    font-size: 22px;
+    font-size: 18px;
     color: #6b3b25;
     margin-bottom: 20px;
     text-decoration: underline;
@@ -299,6 +300,13 @@ a:hover {
 
 #article-box input {
     background: #e09402;
+    padding: 12px 14px;
+    border: 0;
+    color: #fff;
+}
+
+#article-box input:hover {
+    background: #62493d;
     padding: 12px 14px;
     border: 0;
     color: #fff;
